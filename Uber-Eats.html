@@ -153,6 +153,7 @@
   margin-top: -25px;
   font-size: 17px;
   width: 500px;
+  font-weight: 600;
 }
 .find {
     margin-left: 595px;
@@ -164,15 +165,24 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 18;
-    font-weight: 550;
+    font-weight: 400;
 }
 .recent_address{
     position: absolute;
     margin-left: 40px;
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18;
-    font-weight: 550;
+    font-size: 15;
+    font-weight: 500;
+    color-adjust: #000;
+}
+.recent_address2{
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15;
+    font-weight: 500;
 }
 </style>
 <body>
@@ -213,11 +223,11 @@
     </div>
     <div class="address_bar">
         <input type="text" placeholder="Enter delivery address">
-    </div> 
+    </div>
+    <a class="recent_address" href="">Sign in</a><a class="recent_address2"> for your recent addresses</a>
+ 
     <button class="find">Find Food</button>
-    <div class="recent_address">
-        <a href="#">Sign in</a><a> for your recent address</a>
-    </div>    
+  
 </body>
     
 </html>
