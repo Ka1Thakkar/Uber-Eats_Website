@@ -100,7 +100,6 @@
 .sign_button{
     display: block;
     position: fixed;
-    
     right: 70;
     top: 35;
     color: rgb(56, 56, 56);
@@ -109,6 +108,9 @@
     font-weight: 600;
     height: 40;
     width: 100;
+    background-color: #fff;
+    border: none;
+    border-radius: 24px;
 }
 .main{
     position:absolute;
@@ -152,11 +154,22 @@
   font-size: 17px;
   width: 500px;
 }
-
+.find {
+    margin-left: 595px;
+    margin-top: -62px;
+    height: 62px;
+    width: 120px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18;
+    font-weight: 550;
+}
 </style>
 <body>
         
-    <a class="sign_button">Sign Up</a>
+    <button class="sign_button">Sign Up</button>
     <a class="logo" href=""><img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8b969d35d373b512664b78f912f19abc.svg"></a>
     <b class="main">Order food to your door</b>
             
@@ -193,6 +206,7 @@
     <div class="address_bar">
         <input type="text" placeholder="Enter delivery address">
     </div> 
+    <button class="find">Find Food</button>
 </body>
     
 </html>
