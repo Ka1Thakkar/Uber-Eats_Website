@@ -1,6 +1,6 @@
 <html>
-    <style>
-        .navbar {
+<style>
+.navbar {
   
   position: fixed;
   width: 100%;
@@ -93,13 +93,13 @@
   transition-duration: .25s;
 }
 .logo {
-    position: absolute;
+    position: fixed;
     left: 100;
     top: 35;
 }
 .sign_button{
     display: block;
-    position: absolute;
+    position: fixed;
     right:70;
     top: 35;
     color: rgb(0, 0, 0);
@@ -135,44 +135,60 @@
   text-decoration: none;
   transition-duration: .25s;
 }
+.search_icon {
+    max-height: 20;
+    max-width: 50;
+}
+.address_bar input[type=text] {
+  padding: 20px;
+  border: none;
+  margin-left: 85;
+  margin-top: 475;
+  font-size: 17px;
+  width: 500px;
+}
 
-    </style>
-    <body>
+</style>
+<body>
         
-            <a class="sign_button" href="">Sign Up</a>
-            <a class="logo" href=""><img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8b969d35d373b512664b78f912f19abc.svg"></a>
-            <b class="main">Order food to your door</b>
+    <a class="sign_button" href="">Sign Up</a>
+    <a class="logo" href=""><img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8b969d35d373b512664b78f912f19abc.svg"></a>
+    <b class="main">Order food to your door</b>
             
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                  <span></span>
-                </label>
-                <style>
-                    body {
-                      background-image: url('Background.png');
-                      background-repeat: no-repeat;
-                      background-attachment: fixed;
-                      background-size: 100% 100%;
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+        <span></span>
+        </label>
+        <style>
+            body {
+                background-image: url('Background.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
 
-                    }
-                    </style>
+                }
+        </style>
             
-                <ul class="menu__box">
-                    <li><a class= "sign_up" href="#">Sign Up</a></li>
-                    <li><a class="menu__item" href="#"></a></li> 
-                        <li><a class="menu__item" href="#">Create a business account</a></li>
-                        <li><a class="menu__item" href="#">Add your restaurant</a></li>
-                        <li><a class="menu__item" href="#">Sign up to deliver</a></li>
-                        <li><a class="menu__item" href="#"></a></li>
-                        <li><a class="menu__item" href="#"></a></li>
-                        <li><a class="android">Android</a></li>
-                        <li><a class="iOS">iOS</a></li>
-                </ul>
-                
-              </div>
-              
-        
-    </body>
+        <ul class="menu__box">
+        <li><a class= "sign_up" href="#">Sign Up</a></li>
+        <li><a class="menu__item" href="#"></a></li> 
+        <li><a class="menu__item" href="#">Create a business account</a></li>
+        <li><a class="menu__item" href="#">Add your restaurant</a></li>
+        <li><a class="menu__item" href="#">Sign up to deliver</a></li>
+        <li><a class="menu__item" href="#"></a></li>
+        <li><a class="menu__item" href="#"></a></li>
+        <li><a class="android">Android</a></li>
+        <li><a class="iOS">iOS</a></li>
+        </ul>
+    </div>
+    <div class="address_bar">
+        <span class="search_icon">
+            <img src="https://brandeps.com/icon-download/L/Location-icon-vector-16.svg">
+        </span>
+        <input type="text" placeholder="Enter delivery address">
+    </div>
+
+</body>
     
 </html>
