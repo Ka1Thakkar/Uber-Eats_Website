@@ -1,4 +1,42 @@
 <html>
+    <div class="bg-image img1">
+                <!-- <b class="search_icon"><img src='Location-icon-vector-16.svg'></b> -->
+                <a class="address_bar"><input type="text" placeholder="Enter delivery address"></a>
+                <button class="find">Find Food</button>
+    </div>
+    <div class="bg-image img2"></div>
+
+    <style>
+        
+        body, html {
+            height: 100%;
+        }
+        *
+        .bg-image {
+             /* Full height */
+             height: 100%;
+             /* Center and scale the image nicely */
+             background-position: center;
+             
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-repeat: no;
+             padding: 0px;
+             margin: 0px
+            }
+            /* Images used */
+            .img1 { 
+                background-image: url("Background.png");
+;
+                background-size: cover;
+                margin-top: 0;
+                
+             }
+            .img2 { background-image: url("White_background.jpg"); }
+    
+    
+            
+    </style>
 <style>
 .navbar {
   
@@ -153,17 +191,18 @@
   margin-left: 20;
 
 }
-.search_icon {
+/* .search_icon {
     max-height: 5px;
     max-width: 20px;
-    margin-top: -1490px;
+    top: -1490px;
     margin-left: 50px;
-}
+} */
 .address_bar input[type=text] {
   padding: 20px;
   border: none;
   margin-left: 85;
-  margin-top: -25px;
+  /* margin-top: -25px; */
+  margin-top: 490px;
   font-size: 17px;
   width: 500px;
   font-weight: 600;
@@ -179,6 +218,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18;
     font-weight: 400;
+    margin: 10;
 }
 .recent_address{
     position: absolute;
@@ -241,50 +281,6 @@
     
     </ul>
 </div>
- 
-    <div class="bg-image img1"></div>
-    <div class="bg-image img2"></div>
-</div>
-<div class="search_icon">
-    <img src='Location-icon-vector-16.svg'>
-</div>
-<div class="address_bar">
-    <input type="text" placeholder="Enter delivery address">
-</div>
-
-
-<button class="find">Find Food</button>
-    <style>
-        
-        body, html {
-            height: 100%;
-        }
-        *
-        .bg-image {
-             /* Full height */
-             height: 100%;
-             /* Center and scale the image nicely */
-             background-position: center;
-             
-             background-repeat: no-repeat;
-             background-size: cover;
-             background-repeat: no;
-             padding: 0px;
-                margin: 0px
-            }
-            /* Images used */
-            .img1 { 
-                background-image: url("Background.png");
-;
-                background-size: cover;
-                margin-top: -20;
-                
-             }
-            .img2 { background-image: url("White_background.jpg"); }
-    
-    
-            
-    </style>
                
 
   
